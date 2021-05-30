@@ -1,4 +1,4 @@
-# text-bot
+# Text Bot
 Text generator adapted from https://www.tensorflow.org/text/tutorials/text_generation
 
 Transcripts taken from Tucker Carlson Tonight episodes:
@@ -25,5 +25,7 @@ git clone https://github.com/mnescio/text-bot.git
 cd text-bot
 jupyter notebook --ip 0.0.0.0 --no-browser
 ```
+
+Run the text_generator.ipynb notebook
 
 Jupyter notebooks: https://jupyter.org/install.html
