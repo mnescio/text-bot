@@ -167,7 +167,10 @@ class OneStep(tf.keras.Model):
 
 # ## Generate Sample Text
 
-def Initialize(one_step_model, seed, seed5):
+def Initialize(one_step_model, seed):
+    
+    
+    seed5=seed*5
 
 
     start = time.time()
