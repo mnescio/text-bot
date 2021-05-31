@@ -1,6 +1,6 @@
 # Text Bot
 
-## the text_bot.ipynb notebook laods a previously trained text generator
+## the text_bot.ipynb notebook loads a previously trained text generator
 
 Text generator adapted from https://www.tensorflow.org/text/tutorials/text_generation
 
