@@ -71,7 +71,7 @@ drive.mount('/content/gdrive/')
 
 ```
 
-You will have to edit the text_bot.ipynb notebook in your google drive, where it will be saved, and then run 
+That block will generate text output from the text bot. If you want to edit the seed phrase or other parameters for the bot, then you will have to edit the text_bot.ipynb notebook in your google drive, where it will be saved, and then run 
 
 ```
 ! jupyter nbconvert --to python text_bot.ipynb
