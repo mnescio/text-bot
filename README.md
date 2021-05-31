@@ -18,8 +18,6 @@ May 20, 2021
 
 and saved in file ```transcripts_all.txt```
 
-Replace this with any plain text file to customize the text generator.
-
 
 To run the text bot, enter in your terminal:
 
