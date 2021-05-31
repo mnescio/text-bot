@@ -4,7 +4,7 @@
 
 Text generator adapted from https://www.tensorflow.org/text/tutorials/text_generation
 
-Transcripts taken from Tucker Carlson Tonight episodes:
+Transcripts taken from Tucker Carlson (who is evil, just like this bot) Tonight episodes:
 
 ```
 February 26, 2021
