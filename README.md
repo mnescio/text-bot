@@ -24,6 +24,7 @@ To run the text bot, enter in your terminal:
 ```
 git clone https://github.com/mnescio/text-bot.git
 cd text-bot
+bash bootstrap.sh
 jupyter notebook --ip 0.0.0.0 --no-browser
 ```
 
