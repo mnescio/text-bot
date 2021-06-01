@@ -19,7 +19,7 @@ May 20, 2021
 and saved in file ```transcripts_all.txt```
 
 
-To run the text bot, enter in your terminal:
+To run the text bot, enter in your linux terminal ([windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [mac](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/):
 
 ```
 git clone https://github.com/mnescio/text-bot.git
