@@ -86,10 +86,9 @@ Alternatively you can just repeatedly run the line
 
 to generate output with the default seed phrase
 
-\
+#
 
-\
-
+#
 
 To come: a  more user-friendly html version
 
