@@ -2,9 +2,13 @@
 
 Web App: https://tuckered-out-bot.herokuapp.com/
 
-## the text_bot.ipynb notebook loads a previously trained text generator
+## Instructions for running the code locally
 
 Text generator adapted from https://www.tensorflow.org/text/tutorials/text_generation
+
+The text_bot.ipynb notebook loads a previously trained model.
+
+The text_generator.ipynb trains a model on the transcripts.
 
 Transcripts taken from Tucker Carlson (who is evil, just like this bot) Tonight episodes:
 
