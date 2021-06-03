@@ -16,7 +16,7 @@ def index():
 def my_link():
 
   req = request.form
-  seed = req['seed']
+  seed = [req['seed']]
   N_characters = int(req['nchar'])
   #nrand = float(req['nrand'])/10
  
