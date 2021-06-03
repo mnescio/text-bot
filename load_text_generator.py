@@ -25,8 +25,7 @@ def Generate(one_step_model, N_characters, seed):
 
 
 
-    #output = np.array(hub.tf_utils.tf.strings.join(result))[0].decode('UTF-8')
-    output = hub.tf_utils.tf.strings.join(result)[0]
+    output = np.array(hub.tf_utils.tf.strings.join(result))[0].decode('UTF-8')
     
     print(output)
     return output

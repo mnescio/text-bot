@@ -1,4 +1,4 @@
 flask
 gunicorn
 tensorflow_hub
-tensorflow==1.15.0
+tensorflow==2.3.0
