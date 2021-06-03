@@ -1,4 +1,4 @@
 django
 flask
 gunicorn
-tensorflow==2.4.0
+tensorflow
