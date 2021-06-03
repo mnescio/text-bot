@@ -2,6 +2,8 @@
 
 Web App: https://tuckered-out-bot.herokuapp.com/
 
+[web app source code](https://github.com/mnescio/text-bot/tree/app)
+
 ## Instructions for running the code locally
 
 Text generator adapted from https://www.tensorflow.org/text/tutorials/text_generation
