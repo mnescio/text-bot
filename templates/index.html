@@ -28,9 +28,12 @@ body {
      
     <br><br><br>
     <div style="background-color:LightGray;padding:20px;">
-    <p> {{output}} </p>
-    </div> 
+	      {% for break in output %}
+		     <p>{{break}}</p>
+		  {% endfor %}
+	</div>
 
-
-
+<p style="text-align:left; position: absolute; bottom: 0pt; left: 0pt;"> 
+<a href="https://github.com/mnescio/text-bot" target="_blank">Source Code</a>
+</p>
     </body>
