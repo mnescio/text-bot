@@ -3,6 +3,8 @@
 
 
 #import tensorflow as tf
+# tf version 1.15.0
+
 import tensorflow_hub as hub
 import numpy as np
 
@@ -22,8 +24,10 @@ def Generate(one_step_model, N_characters, seed):
       result.append(next_char)
 
 
-    output = hub.tf_utils.tf.strings.join(result)[0].numpy().decode("utf-8")
 
+    output = np.array(hub.tf_utils.tf.strings.join(result))[0].decode('UTF-8')
+
+    
     print(output)
     return output
 
