@@ -12,7 +12,7 @@ app = Flask(__name__)
 def index():
   return render_template('index.html')
 
-@app.route('/my-link/', methods = ['GET', 'POST'])
+@app.route('/out/', methods = ['GET', 'POST'])
 def my_link():
 
   req = request.form
@@ -22,9 +22,8 @@ def my_link():
  
   output = Generate(one_step_model, N_characters, seed) 
 
-
-
   return output
+
 
 if __name__ == '__main__':
   app.run(debug=True)

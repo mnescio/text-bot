@@ -18,17 +18,12 @@ body {
 <head><h1 style="background-color:LightGray;">Tuckered Out Bot</h1> 
     <meta charset=utf-8> </head>
     <body>
-        <form action="/my-link/", method='POST'>
+        <form action="/out/", method='POST'>
 			<label for="seed">Seed Phrase</label><br>
 			<input type="text" id="seed" name="seed" value="CARLSON:"><br><br>
             <label for="nchar">Characters</label><br>
-			<input type="text" id="nchar" name="nchar" value=1000><br><br>
-         <!--   <label for="nrand">Randomness Factor</label><br>
-			<input type="text" id="nrand" name="nrand"  value=4><br><br>-->
-
-			<input type="submit" value="Generate Output" />
+			<input type="number" id="nchar" name="nchar" value=1000><br><br>
+     		<input type="submit" value="Generate Output Text" />
         </form>
         
-        <!--<button> <a href="/my-link/">Generate Output</a></button>-->
-
     </body>
