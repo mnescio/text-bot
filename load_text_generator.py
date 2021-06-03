@@ -23,12 +23,12 @@ def Generate(one_step_model, N_characters, seed):
       next_char, states = one_step_model.generate_one_step(next_char, states=states)
       result.append(next_char)
 
-
-    string = ''
-    for c in np.array(result):
-        string = string + str(c[0])[2:-1]
+	output = hub.tf_utils.tf.strings.join(result)[0].numpy().decode('UTF-8')
+    #string = ''
+    #for c in np.array(result):
+    #    string = string + str(c[0])[2:-1]
     
-    return string
+    return output
 
 
 
