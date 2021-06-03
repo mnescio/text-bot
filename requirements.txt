@@ -1,4 +1,3 @@
-django
 flask
 gunicorn
 tensorflow
