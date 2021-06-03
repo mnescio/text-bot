@@ -17,13 +17,9 @@ def my_link():
 
   req = request.form
   seed = req['seed']
-  nchar = int(req['nchar'])
-  nrand = float(req['nrand'])/10
-  
-
-  
-
-
+  N_characters = int(req['nchar'])
+  #nrand = float(req['nrand'])/10
+ 
   output = Generate(one_step_model, N_characters, seed) 
 
 
