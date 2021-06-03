@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-#import tensorflow as tf
-import tensorflow_hub as hub
+import tensorflow as tf
 import numpy as np
 from load_text_generator import *
 
@@ -19,7 +18,6 @@ def my_link():
   req = request.form
   seed = [req['seed']]
   N_characters = int(req['nchar'])
-  #nrand = float(req['nrand'])/10
  
   output = Generate(one_step_model, N_characters, seed) 
 
