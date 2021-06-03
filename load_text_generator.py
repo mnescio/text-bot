@@ -5,7 +5,7 @@
 #import tensorflow as tf
 # tf version 2.4.0
 
-import tensorflow hub as hub
+import tensorflow_hub as hub
 import numpy as np
 
 one_step_model = hub.tf_utils.tf.saved_model.load('test_model')
