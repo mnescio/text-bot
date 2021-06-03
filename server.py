@@ -22,7 +22,7 @@ def my_link():
  
   output = Generate(one_step_model, N_characters, seed) 
 
-  return output
+  return render_template('index.html', output=output)
 
 
 if __name__ == '__main__':
