@@ -24,11 +24,11 @@ def Generate(one_step_model, N_characters, seed):
       result.append(next_char)
 
 
-    print(hub.tf_utils.tf.strings.join(result))
-    #output = np.array(hub.tf_utils.tf.strings.join(result)).decode('UTF-8')    
+    string = ''
+    for c in np.array(result):
+        string = string + str(c[0])[2:-1]
     
-    
-    return "output"
+    return string
 
 
 
