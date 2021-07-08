@@ -5,7 +5,7 @@
 #import tensorflow as tf
 # tf version 2.4.0
 
-import tensorflow_cpu as tf
+import tensorflow as tf
 #import tensorflow_hub as hub
 import numpy as np
 
