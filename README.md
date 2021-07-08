@@ -12,19 +12,7 @@ The text_bot.ipynb notebook loads a previously trained model.
 
 The text_generator.ipynb trains a model on the transcripts.
 
-Transcripts taken from Tucker Carlson (who is evil, just like this bot) Tonight episodes:
-
-```
-February 26, 2021
-April 5, 2021
-April 29, 2021
-April 30, 2021
-May 1, 2021
-May 13, 2021
-May 20, 2021
-```
-
-and saved in file ```transcripts_all.txt```
+Transcripts taken from 35 Tucker Carlson (who is evil, just like this bot) Tonight episodes and saved in file ```transcripts.txt```
 
 
 To run the text bot, enter in your linux terminal (how to find for [windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), [mac](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)):
