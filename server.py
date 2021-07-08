@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return render_template('index.html')
+  return render_template('index.html', seed_initial="CARLSON:")
 
 @app.route('/out/', methods = ['GET', 'POST'])
 def my_link():
@@ -21,8 +21,12 @@ def my_link():
   N_characters = int(req['nchar'])
  
   output = Generate(one_step_model, N_characters, seed) 
-
-  return render_template('index.html', output=output)
+  
+  print(output)
+  print()
+  print('seed', seed, seed[0])
+  print()
+  return render_template('index.html', output=output, seed_initial=seed[0])
 
 
 if __name__ == '__main__':

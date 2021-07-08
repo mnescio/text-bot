@@ -20,7 +20,7 @@ body {
     <body>
         <form action="/out/", method='POST'>
 			<label for="seed">Seed Phrase</label><br>
-			<input type="text" id="seed" name="seed" value="CARLSON:"><br><br>
+			<input type="text" id="seed" name="seed" value="{{seed_initial}}"><br><br>
             <label for="nchar">Characters</label><br>
 			<input type="number" id="nchar" name="nchar" value=1000 min=10 max=2000><br><br>
      		<input type="submit" value="Generate Output Text" />
